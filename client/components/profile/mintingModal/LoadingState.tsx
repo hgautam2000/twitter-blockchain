@@ -1,24 +1,3 @@
-import { GridLoader } from 'react-spinners'
-import { css } from '@emotion/react'
-
-const style = {
-  wrapper: `h-[20rem] w-[35rem] text-white bg-[#15202b] rounded-3xl p-10 flex flex-col items-center justify-center`,
-  title: `font-semibold text-xl mb-6`,
-}
-
-const cssOverride = css`
-  display: block;
-  margin: 0 auto;
-  border-color: white;
-`
-
-const LoadingState = () => {
-  return (
-    <div className={style.wrapper}>
-      <div className={style.title}>Minting in progress...</div>
-      <GridLoader color={'#fff'} loading={true} css={cssOverride} size={30} />
-    </div>
-  )
-}
-
-export default LoadingState
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c3314f1208819b16f359d09b31a77ee48a3593d1a5400f0e111e7b7979a0570
+size 608
